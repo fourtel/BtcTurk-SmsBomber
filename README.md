@@ -1,11 +1,7 @@
 
-# Z-Bomb [TEKRARDAN AKTİF!]
+# Btc-Bomb
 Z-Bomb, @tingirifistik tarafından geliştirilen Enough projesinden tarafımca bazı modifikasyonlar, iyileştirmeler yapılarak yayınlandı. Visual Studio Code'da yazıldı.
 
-![image](https://user-images.githubusercontent.com/111361998/219316452-70bf568a-1ba0-40cc-b947-34ecfea36354.png)
-
-
-![2](https://user-images.githubusercontent.com/111361998/214158195-514333d3-a2f1-459e-8009-f5d6a09987f0.png)
 # Gereken Programlar
 - En son Python sürümü
 - GitSCM
@@ -15,7 +11,7 @@ Windows için PowerShell'de, Linux dağıtımlarında terminal kullanabilirsiniz
 git clone https://github.com/Bora185/Z-Bomb.git
 cd Z-Bomb
 pip3 install -r requirements.txt
-python3 zbomb.py
+python3 btcbomb.py
 ```
 # Özellikler
 - Sonsuz SMS desteği
