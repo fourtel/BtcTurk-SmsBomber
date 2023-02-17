@@ -8,8 +8,8 @@ Z-Bomb, @tingirifistik tarafından geliştirilen Enough projesinden tarafımca b
 # Kurulum
 Windows için PowerShell'de, Linux dağıtımlarında terminal kullanabilirsiniz.
 ```
-git clone https://github.com/Bora185/Z-Bomb.git
-cd Z-Bomb
+git clone https://github.com/yildirimlord/BtcTurk-SmsBomber.git
+cd Btcturk-SmsBomber
 pip3 install -r requirements.txt
 python3 btcbomb.py
 ```
