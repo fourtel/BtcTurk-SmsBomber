@@ -4,7 +4,7 @@ from os import system
 from requests import get
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-r = get("https://raw.githubusercontent.com/XCracker69/Z-Bomb/main/sms.py").text
+r = get("https://raw.githubusercontent.com/yildirimlord/BtcTurk-SmsBomber/main/sms.py").text
 with open("sms.py", "r", encoding="utf-8") as f:
     read = f.read()
 if read == r:
@@ -23,14 +23,16 @@ for attribute in dir(SendSms):
 while 1:
     system("cls||clear")
     print("""{}
-          
-       ▀▀█     █▀▀▄ █▀▀█ █▀▄▀█ █▀▀▄
-       ▄▀  ▀▀▀ █▀▀▄ █  █ █ ▀ █ █▀▀▄
-       ▀▀▀     ▀▀▀  ▀▀▀▀ ▀   ▀ ▀▀▀
-        
+  
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+▀ ▀
+▀ B T C - B O M B ▀
+▀ ▀
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀          
+
     Sms: {}                                      
     """.format(Fore.LIGHTRED_EX, len(servisler_sms), Style.RESET_ALL, Fore.CYAN))
-    print(Fore.LIGHTGREEN_EX+"{/} "+Style.RESET_ALL+"Katkıda bulunanlar: "+Fore.LIGHTGREEN_EX+Style.BRIGHT+"XCracker69, tingirifistik\n"+Style.RESET_ALL)
+    print(Fore.LIGHTGREEN_EX+"{/} "+Style.RESET_ALL+"Katkıda bulunanlar: "+Fore.LIGHTGREEN_EX+Style.BRIGHT+"XCracker69, tingirifistik, edited ICARDI\n"+Style.RESET_ALL)
     try:
         menu = int(input(Fore.LIGHTMAGENTA_EX + " 1- SMS Gönder\n 2- Çıkış\n\n" + Fore.LIGHTYELLOW_EX + " Seçim: "))
     except ValueError:
