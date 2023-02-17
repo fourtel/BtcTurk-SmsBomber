@@ -21,7 +21,7 @@ python3 btcbomb.py
 # Özellikler
 - Sonsuz SMS desteği
 - Çoklu numara desteği (max 5)
-- 52 Servis (%95 başarı oranı)
+- 52 Servis (%91 başarı oranı)
 - Servis güncellemeleri
 - Açık kaynak kodlu
 - Ultra gizli
