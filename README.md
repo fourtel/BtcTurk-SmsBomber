@@ -1,6 +1,7 @@
 
 # Btc-Bomb [.gg/btcturk]
 Z-Bomb, @tingirifistik tarafından geliştirilen Enough projesinden tarafımca bazı modifikasyonlar, iyileştirmeler yapılarak yayınlandı. Visual Studio Code'da yazıldı.
+
 ICARDI olarak kendim kodladığımı söylemiyorum, sadece mevcut olanı editleyip düzenledim biraz.
 # Gereken Programlar
 - En son Python sürümü
