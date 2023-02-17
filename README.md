@@ -1,6 +1,9 @@
 
 # Btc-Bomb [.gg/btcturk]
 Z-Bomb, projesinden yararlanarak tarafımca bir kaç modifikasyon ve editlemeler yapıldı.
+
+[IMAGE]https://prnt.sc/JsHGGtpnusFi
+
 # Gereken Programlar
 - En son Python sürümü
 - GitSCM
