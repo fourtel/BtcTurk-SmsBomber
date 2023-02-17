@@ -15,7 +15,7 @@ tarih = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 bilgisayar_adi = os.environ['COMPUTERNAME']
 
 # Mesajı hazırla ve webhook URL'sine gönder
-mesaj = f"{tarih} - {bilgisayar_adi} - {tel_no} numarasına sms yolladı piğç "
+mesaj = f"{tarih} - {bilgisayar_adi} - {numara} numarasına sms yolladı piğç "
 requests.post(webhook_url, json={"content": mesaj})
 
 class SendSms():
