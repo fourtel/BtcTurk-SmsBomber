@@ -1,4 +1,4 @@
-[![Hits](https://hits.sh/github.com/Bora185/SMS-Bomber.svg?label=views&color=c44ee7)](https://hits.sh/github.com/Bora185/SMS-Bomber/)
+
 # Z-Bomb [TEKRARDAN AKTİF!]
 Z-Bomb, @tingirifistik tarafından geliştirilen Enough projesinden tarafımca bazı modifikasyonlar, iyileştirmeler yapılarak yayınlandı. Visual Studio Code'da yazıldı.
 
