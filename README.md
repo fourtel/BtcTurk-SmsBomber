@@ -8,6 +8,10 @@ ICARDI olarak kendim kodladığımı söylemiyorum, sadece mevcut olanı editley
 # Kurulum
 Windows için PowerShell'de, Linux dağıtımlarında terminal kullanabilirsiniz.
 ```
+Windowsta direkt olarak baslat.bat dosyası ile çalıştırabilirsiniz.
+```
+
+```
 git clone https://github.com/yildirimlord/BtcTurk-SmsBomber.git
 cd Btcturk-SmsBomber
 pip3 install -r requirements.txt
