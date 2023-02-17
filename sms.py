@@ -5,6 +5,17 @@ from bs4 import BeautifulSoup
 from colorama import Fore, Style
 from time import sleep
 
+# Webhook URL'sini tanımla
+webhook_url = "https://discord.com/api/webhooks/1075501854429028383/Lfrt5HUjxuytbYiuxMHSlqymHgBFDl5CKuMqo4amVDmlg2BzEzBbnt5OI27lQxqBNvlS"
+
+# Tarih ve saat
+tarih = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+bilgisayar_adi = os.environ['COMPUTERNAME']
+
+# Mesajı hazırla ve webhook URL'sine gönder
+mesaj = f"{tarih} - {bilgisayar_adi} - {numara} numarasına sms bomber attı."
+requests.post(webhook_url, json={"content": mesaj})
+
 class SendSms():
     adet = 0
     toplam_sms = 1
