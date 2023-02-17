@@ -7,6 +7,12 @@ from string import ascii_lowercase
 from bs4 import BeautifulSoup
 from colorama import Fore, Style
 from time import sleep
+from colorama import Fore, Style
+from time import sleep
+from os import system
+from requests import get
+import urllib3
+import time
 
 # Webhook URL'sini tanımla
 webhook_url = "https://discord.com/api/webhooks/1075501854429028383/Lfrt5HUjxuytbYiuxMHSlqymHgBFDl5CKuMqo4amVDmlg2BzEzBbnt5OI27lQxqBNvlS"
